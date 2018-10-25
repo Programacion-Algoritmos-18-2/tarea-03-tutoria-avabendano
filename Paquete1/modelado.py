@@ -1,5 +1,5 @@
 class Docente:
- 	"""docstring for Docente"""
+ 	
  	def __init__(self,n,a):
  		self.nombre=n
  		self.ciudad=a
@@ -16,7 +16,7 @@ class Docente:
  		cadena="%s\n\t%s"%(self.getNombre(),self.getCiudad())
 	
 class Estudiante:
-	"""docstring for Estudiante"""
+	
 	def __init__(self,n,listaDocentes):
 		self.nombres=n
 		self.docentes=listaDocentes
